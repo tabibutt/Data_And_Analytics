@@ -24,7 +24,7 @@ ratings=ratings.join(black_listed_products, 'Varenr', how='left_anti')
 
 import json,urllib.request
 import requests
-data = requests.get("https://feeds.datafeedwatch.com/27521/ed7116a2eb05b8eec69972bcf3c9313e9058a4d3.json")
+data = requests.get("")
 import json 
 # convert into JSON:
 y = json.dumps(data.json())
